@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #fffae9;
+  --secondaryColor: #fffae9;
+  --textDefaultColor: #424b54;
+}
+body {
+  background-color: var(--primaryColor);
+  color: var(--textDefaultColor);
+  font-family: 'Dancing Script', cursive;
+}
+h1,
+h2,
+h3 {
+  margin: 10px;
+}
+header {
+  text-align: center;
+}
+main {
+  background: url(../images/brokenGlass.JPG);
+  background-size: cover;
+}
+main ol {
+  padding: 20px 40px;
+  width: 500px;
+  margin: 20px auto;
+  background-color: var(--secondaryColor);
+}
+li {
+  margin: 5px;
+}
+ol ul {
+  padding-left: 40px;
+}
+footer {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+img {
+  float: right;
+}
